@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me</title>
+</head>
+<body>
+    <h1>About Me</h1>
+    <p>Hello! My name is Kingsley Atta Yeboah, and I am a passionate technologist, creative thinker, and problem solver. I believe in the power of technology to transform lives and create opportunities for everyone</p>
+
+    <!-- Picture Element for Responsive Images -->
+    <picture>
+        <img  src="/image/me.jpeg" alt="A picture of me">
+        <source media="(max-width: 600px)" srcset="me-mobile.jpg">
+        <source media="(max-width: 1024px)" srcset="me-tablet.jpg">
+        <source media="(min-width: 1025px)" srcset="me-laptop.jpg">
+       
+       
+    </picture>
+
+    <!-- Audio Element -->
+    <h2>Listen to my favorite quote:</h2>
+    <audio controls>
+        <source src="/music/motivation-258263.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+
+    <!-- Video Element -->
+    <h2>Watch my introduction video:</h2>
+    <video controls width="600" autoplay muted>
+        <source src="/video/Colorful Blue and Purple Animated YouTube Outro.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+
+    
+
+    <!-- Iframe Element -->
+    <h2>Visit my blog:</h2>
+    <iframe src="https://example.com" width="600" height="400"></iframe>
+</body>
+</html>
